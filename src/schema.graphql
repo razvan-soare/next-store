@@ -1,0 +1,14 @@
+type Mutation {
+  hi: String,
+}
+
+type Query {
+  users: User!
+}
+
+type User {
+  id: ID!
+  userId: ID!
+  title: String!
+
+}
